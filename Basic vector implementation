@@ -1,0 +1,20 @@
+#include <iostream>
+// #include <vector>
+#include <bits/stdc++.h>
+using namespace std;
+
+class solution {
+    public:
+        void moveZeros(vector<int> vec) {
+            cout << "capacity of vector: " << vec.capacity() << endl;
+        }
+};
+
+int main() {
+    
+    solution obj;
+    vector<int> vec;    //data structure likho (vector), then type (int, char), then name of vector (vec)
+    
+    obj.moveZeros(vec);
+    return 0;
+}
