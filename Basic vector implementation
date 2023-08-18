@@ -1,7 +1,7 @@
 // Online C++ compiler to run C++ program online
 #include <iostream>
-// #include <vector>
-#include <bits/stdc++.h>
+// #include <vector>            // only run vector data structure of STL...
+#include <bits/stdc++.h>        // this library can run any STL data structure...
 using namespace std;
 
 class solution {
