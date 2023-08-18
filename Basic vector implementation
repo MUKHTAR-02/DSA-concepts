@@ -1,3 +1,4 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
 // #include <vector>
 #include <bits/stdc++.h>
@@ -8,13 +9,29 @@ class solution {
         void moveZeros(vector<int> vec) {
             cout << "capacity of vector: " << vec.capacity() << endl;
         }
+        
+        void printVec(vector<int> vec) {
+            int size = vec.capacity();
+            cout << "vector elements are:" << endl;
+            for(int i:vec) {        // bs yaha dhyan rkhna hai (int i:vec)
+                cout << i << " ";   // or "i" ko print krdo
+            }
+            cout << endl;
+        }
 };
 
 int main() {
     
     solution obj;
-    vector<int> vec;    //data structure likho (vector), then type (int, char), then name of vector (vec)
+    vector<int> vec;
     
+    vec.push_back(0);
+    vec.push_back(1);
+    vec.push_back(0);
+    vec.push_back(3);
+    vec.push_back(12);
+    
+    obj.printVec(vec);
     obj.moveZeros(vec);
     return 0;
 }
